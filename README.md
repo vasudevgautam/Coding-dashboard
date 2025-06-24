@@ -78,17 +78,16 @@ A sleek, minimal coding problem dashboard built with **React** and styled using 
 
 ```bash
 npm install
----
-2. ▶️ Start React app
+
+### 2. ▶️ Start React app
    npm start
----
-3. 📡 Start JSON Server (in a separate terminal)
+
+### 3. 📡 Start JSON Server (in a separate terminal)
    json-server --watch questions.json --port 5000
----
-4. 🌐 Open in browser
+### 4. 🌐 Open in browser
      App: http://localhost:3000
     JSON API: http://localhost:5000/questions
-📦 Example Questions JSON
+### 📦 Example Questions JSON
    {
   "questions": [
     {
@@ -102,5 +101,4 @@ npm install
   ]
 }
 
----
 
