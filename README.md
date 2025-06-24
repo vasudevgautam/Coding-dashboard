@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# 🧠 React Coding Questions Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek, minimal coding problem dashboard built with **React** and styled using **inline CSS** (or Tailwind CSS). Connects to a mock API powered by **JSON Server**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📋 Dashboard with list of coding questions
+- 🔍 Problem detail page with:
+  - Description
+  - Test cases
+  - Expected outputs
+- 🎨 Hover animations (title, inputs, back link)
+- 🖱 Clickable transitions and styling
+- ⚡ JSON Server mock API integration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- ⚛️ React (with React Router)
+- 📦 JSON Server (Mock API)
+- 🎨 Inline CSS (optional: Tailwind CSS)
+- 🔄 Axios (data fetching)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 File Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 🧠 React Coding Questions Dashboard
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A sleek, minimal coding problem dashboard built with **React** and styled using **inline CSS** (or Tailwind CSS). Connects to a mock API powered by **JSON Server**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 📋 Dashboard with list of coding questions
+- 🔍 Problem detail page with:
+  - Description
+  - Test cases
+  - Expected outputs
+- 🎨 Hover animations (title, inputs, back link)
+- 🖱 Clickable transitions and styling
+- ⚡ JSON Server mock API integration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ⚛️ React (with React Router)
+- 📦 JSON Server (Mock API)
+- 🎨 Inline CSS (optional: Tailwind CSS)
+- 🔄 Axios (data fetching)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 File Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+coding-dashboard/
+├── public/
+├── src/
+│ ├── hooks/
+│ ├── pages/
+│ ├── App.js
+│ ├── index.js
+│ └── index.css (if using Tailwind)
+├── questions.json (API data)
+├── README.md
+└── package.json
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️ Setup Instructions
 
-### Analyzing the Bundle Size
+### 1. 📦 Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+---
+2. ▶️ Start React app
+   npm start
+---
+3. 📡 Start JSON Server (in a separate terminal)
+   json-server --watch questions.json --port 5000
+---
+4. 🌐 Open in browser
+     App: http://localhost:3000
+    JSON API: http://localhost:5000/questions
+📦 Example Questions JSON
+   {
+  "questions": [
+    {
+      "id": 1,
+      "title": "Frequency Minimizer",
+      "description": "Given an array...",
+      "test_cases": ["5 2 2 2 3 3"],
+      "output": ["6"],
+      "status": false
+    }
+  ]
+}
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
