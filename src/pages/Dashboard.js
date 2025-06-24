@@ -49,7 +49,7 @@ const Dashboard = () => {
                 <span
                   style={{
                     fontWeight: "bold",
-                    color: isHovered ? "#2563eb" : "#333", // 👈 animated title color
+                    color: isHovered ? "#2563eb" : "#333", 
                     transition: "color 0.3s ease",
                   }}
                 >
