@@ -58,17 +58,17 @@ A sleek, minimal coding problem dashboard built with **React** and styled using 
 
 ## 📁 File Structure
 
-coding-dashboard/
-├── public/
-├── src/
-│ ├── hooks/
-│ ├── pages/
-│ ├── App.js
-│ ├── index.js
-│ └── index.css (if using Tailwind)
-├── questions.json (API data)
-├── README.md
-└── package.json
+- coding-dashboard/
+- ├── public/
+- ├── src/
+- │ ├── hooks/
+- │ ├── pages/
+- │ ├── App.js
+- │ ├── index.js
+- │ └── index.css (if using Tailwind)
+- ├── questions.json (API data)
+- ├── README.md
+- └── package.json
 
 ---
 
